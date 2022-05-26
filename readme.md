@@ -1,6 +1,7 @@
 # 28-1st-MRMRZR-backend
 
-> 본 repository는 웹 개발 학습을 위해 ZARA(https://www.zara.com/kr/) 사이트를 클론코딩하였습니다.
+> 본 repository는 웹 개발 학습을 위해 
+ZARA(https://www.zara.com/kr/) 사이트를 클론코딩하였습니다.
 > 짧은 기간동안 기능 구현에 보다 집중하기 위해 User, Product, Cart 앱까지 기능 구현하였습니다.
 
 
@@ -19,10 +20,10 @@
 ## 사용 기술
 
 + Git
-+ Django
 + Python
++ Django
 + MySQL
-+ AWS
++ AWS (EC2, RDS)
 
 
 ## Library
@@ -44,24 +45,27 @@
 
 ## 구현 기능
 
-### User
+### User (장우경)
 + 회원가입: 정규표현식을 활용하여 email 및 비밀번호 유효성 체크, 이메일 중복 여부 체크, Bycrypt 활용하여 비밀번호 암호화 후 DB에 저장.
 
 + 로그인: Bcrypt 활용하여 비밀번호 복호화하여 체크 후 JWT 발급
 
-### Product
-+ 제품 전체 리스트 조회, 정렬, 필터 기능 구현
+### Product (이정석, 지원석)
++ 제품 전체 리스트 조회, 정렬(sort), 필터(Q) 기능 구현
 
 + 제품 상세 페이지 조회 기능 구현
 
-### Cart
-+ Decorator 적용하여 token 통해서 유저 인증 후 장바구니 앱 사용할 수 있도록 기능 구현
-
-+ 장바구니에 제품 추가, 수량 수정 기능 구현 (POST)
+### Cart (장우경)
++ Login Decorator 적용하여 token 통해서 유저 인증 후 장바구니 기능 사용할 수 있도록 기능 구현
 
 + 장바구니 제품 리스트 조회 기능 구현 (GET)
 
 + 장바구니 제품 삭제 기능 구현 (DELETE)
+
++ 장바구니에 제품 추가, 수량 수정 기능 구현 (POST)
+
+> Zara 사이트의 경우에는 수량이 1개씩만 변경 가능한데 개선해야 할 부분이라고 생각하여  
+  **재고 범위 안에서 원하는 수량만큼 변경할 수 있도록 기능 구현**했습니다.
 
 
 ## API 문서화
