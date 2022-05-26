@@ -13,28 +13,7 @@
 		+ Backend 공통: ERD, CSV Uploader
 		+ :wink: 이정석 - Product - 제품 전체 페이지
 		+ :blush: 지원석 - Product - 제품 상세 페이지, Decorator, AWS 배포
-		+ :grinning: 장우경 - 초기 셋팅, User, Cart
-
-
-## Demo
-
-> 회원가입 및 로그인 영상
-[회원가입 및 로그인 영상](https://www.youtube.com/watch?v=R29AJkFlXJE&list=PLIT4ViYX2bfhXm4Ia6TIfcTpih7-Ch1PT)
-
-> 제품 리스트 뷰, 상세페이지, 장바구니 앱 영상
-[제품 리스트 뷰, 상세페이지, 장바구니 앱 영상](https://youtu.be/TwTx48PnCc0?list=PLIT4ViYX2bfhXm4Ia6TIfcTpih7-Ch1PT)
-
-
-## DB modeling
-
-![MRMRZARA](https://user-images.githubusercontent.com/75561289/148708315-68cae5ee-2b37-49c0-a29f-19a36d7b6f65.png)
-
-
-## 협업 도구
-
-+ Github
-+ [Trello 바로가기](https://trello.com/b/2f3aGMvW/first-sprint)
-+ Slack
+		+ :grinning: 장우경 - 초기 셋팅, User, Cart, AWS(EC2, RDS) 배포
 
 
 ## 사용 기술
@@ -49,6 +28,18 @@
 ## Library
 
 + JWT
+
+
+## DB modeling
+
+![MRMRZARA](https://user-images.githubusercontent.com/75561289/148708315-68cae5ee-2b37-49c0-a29f-19a36d7b6f65.png)
+
+
+## 협업 도구
+
++ Github
++ [Trello 바로가기](https://trello.com/b/2f3aGMvW/first-sprint)
++ Slack
 
 
 ## 구현 기능
@@ -79,3 +70,8 @@
 + 실무 수준의 프로젝트이지만 학습용으로 만들었기 때문에 이 코드를 활용하여 이득을 취하거나 무단 배포할 경우 법적으로 문제가 될 수 있습니다.
 + 이 프로젝트에서 사용하고 있는 사진 대부분은 위코드에서 구매한 것이므로 해당 프로젝트 외부인이 사용할 수 없습니다.
 
+
+## Demo
+
+> 회원가입 및 로그인 영상
+[회원가입 및 로그인 영상](https://www.youtube.com/watch?v=R29AJkFlXJE&list=PLIT4ViYX2bfhXm4Ia6TIfcTpih7-Ch1PT)
