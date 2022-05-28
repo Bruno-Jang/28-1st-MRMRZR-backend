@@ -1,8 +1,6 @@
 # 28-1st-MRMRZR-backend
 
-> 본 repository는 웹 개발 학습을 위해 
-ZARA(https://www.zara.com/kr/) 사이트를 클론코딩하였습니다.
-> 짧은 기간동안 기능 구현에 보다 집중하기 위해 User, Product, Cart 앱까지 기능 구현하였습니다.
+> E-Commerce 사이트의 기본적인 CRUD 기능을 구현하고자 User, Product, Cart 앱에 집중하여 완성도를 높이고자 했습니다.
 
 
 ## 개발 인원 및 기간
